@@ -28,7 +28,7 @@ class Node:
     h = 0
     f = 0
     parent = None
-    board = np.empty(9, dtype=object)
+    board = np.empty(9, dtype=int)
 
     # constructor of Node class
     def __init__(self, g, h, f, parent, board):
